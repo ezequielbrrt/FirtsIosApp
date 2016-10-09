@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					3720AC741DA9DCF400F2CD07 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6U26WCB498;
 					};
 					3720AC881DA9DCF400F2CD07 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -401,9 +402,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = firstApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.firstApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ezequielbrrt.app.firstApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -412,9 +415,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = firstApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.firstApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ezequielbrrt.app.firstApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
